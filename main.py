@@ -21,7 +21,7 @@ def process_video(video_path):
         exit()
 
     try:
-        with open('CarParkPos', 'rb') as f:
+        with open('data/CarParkPos', 'rb') as f:
             posList = pickle.load(f)
     except:
         print("Không tìm thấy file 'CarParkPos'.")
