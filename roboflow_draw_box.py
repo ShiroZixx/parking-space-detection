@@ -4,7 +4,7 @@ import json
 
 CLIENT = InferenceHTTPClient(
     api_url="https://serverless.roboflow.com",
-    api_key="9adk5aYWcYN7UIzQBKWA"
+    api_key=""
 )
 
 image_path = "resource/"
@@ -52,5 +52,6 @@ cv2.imwrite('resource/bbox_img.jpg', img)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
 
 
